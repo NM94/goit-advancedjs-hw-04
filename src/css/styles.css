@@ -144,3 +144,36 @@ body {
 .iziToast>.iziToast-body .iziToast-icon {
   fill: #ffffff !important;
 }
+
+/* LOAD MORE BUTTON */
+
+.load-more {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 25px;
+
+  background-color: #4e75ff;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: background-color 250ms ease;
+}
+
+.load-more:hover {
+  background-color: #355bd8;
+}
+
+.load-more.is-hidden {
+  display: none;
+}
+
+/* LOADER */
+
+.loader {
+  margin: 20px auto;
+}
